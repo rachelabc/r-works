@@ -1,25 +1,87 @@
-/* src/assets/components/navbar.css */
+/* Importing Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-nav {
-    background-color: #333;
-    padding: 10px;
-}
+/* Import Rambla font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
 
-nav ul {
-    list-style-type: none;
+/* Import Sonsie One font */
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html,
+body {
+    margin: 0;
     padding: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
+/* This will move the navbar to the very top of the page */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #80568D;
+    width: 100%;
     color: white;
-    text-decoration: none;
+    position: fixed;
+    /* Fix the navbar to the top */
+    top: 0;
+    /* Align it to the top of the page */
+    left: 0;
+    /* Align it to the left */
+    z-index: 1000;
+    /* Ensure the navbar stays on top of other elements */
+    padding: 0 20px;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.navbar-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    font-family: 'Sonsie One', cursive;
+    font-size: 40px;
+    padding-left: 50px;
+
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+
+
+
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 250px;
+    gap: 50px;
+    list-style-type: none;
+
+
+
+
+}
+
+.navbar-links a {
+    color: white;
+    /* Makes the text white */
+    text-decoration: none;
+    /* Removes underline from links */
+    font-size: 1.5rem;
+    /* Adjust font size */
+    color: white;
+
+
+    font-family: "Roboto";
 }
