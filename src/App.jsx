@@ -18,6 +18,10 @@ const App = () => {
           element={
             <div className="home">
               <div className="top">
+                <img src="/Group 13.png" alt="Group 13" style={{ width: "100%", height: "100%" }} />
+
+
+
                 <div className="top-container">
                   <div className="button-container">
                     <button
@@ -44,19 +48,23 @@ const App = () => {
                 </div>
 
                 <div className="about">
-                  <h1 className="extra-bold-title">
-                    <span className="highlight">Hi!</span> I'm Rachel Li
-                  </h1>
-                  <p className="about-bio-one">
+                  <p>
+                    <span className="hi">Hi!</span>{' '}
+                    <span className="name">I'm Rachel Li</span>
+                  </p>
+                  <h2 className="about-bio-one">
                     🧠💻 I’m a third-year student at UC Berkeley, studying Cognitive Science and Data Science!
-                  </p>
-                  <p className="about-bio-three">
-                    🖌️✨ I have a strong passion for UI/UX Design, Product Management, User Research, and more! In
-                    my free time, I like to hit tennis, crochet, and sew stuffed animals!
-                  </p>
+                  </h2>
+                  <h2 className="about-bio-three">
+                    🖌️ ✨ I have a strong passion for UI/UX Design, User Research, and more!
+                  </h2>
+
+
                 </div>
               </div>
             </div>
+
+
           }
         />
 
